@@ -1,0 +1,34 @@
+Presentation app
+========================================================
+author: Rene int Veld
+date: 26-05-2017
+autosize: true
+
+Contents
+========================================================
+
+- Introduction
+- Overview trees database
+- Scatter plots created
+
+Introduction
+========================================================
+
+This presentation gives some background on: 
+- the data used
+- the plotting technique used
+
+
+Data overview
+========================================================
+
+```{r}
+summary(trees)
+```
+
+Plotting technique
+========================================================
+
+```{r}
+plot(trees$Girth, trees$Height)
+```
